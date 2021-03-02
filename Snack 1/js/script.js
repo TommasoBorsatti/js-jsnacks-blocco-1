@@ -23,13 +23,13 @@ SE invece è minore stampiamo l'altra. Se i numeri sono uguali compare un messag
 */
 
 if (primoNumero > secondoNumero) {
-  alert("il numero maggiore è il primo, ossia " + primoNumero);
+  document.getElementById('risultato').innerHTML = ("il numero maggiore è il primo, ossia " + primoNumero);
 }
 
 else if (primoNumero < secondoNumero) {
-  alert("il numero maggiore è il secondo, ossia " + secondoNumero);
+  document.getElementById('risultato').innerHTML = ("il numero maggiore è il secondo, ossia " + secondoNumero);
 }
 
 else {
-  alert("Hai scelto due numeri uguali: cosa ti costava leggere meglio?")
+  document.getElementById('risultato').innerHTML = ("Hai scelto due numeri uguali: cosa ti costava leggere meglio?")
 }
