@@ -15,7 +15,8 @@ risultato=0;
 for (i = 0; i < 10; i++){
   var dato =  parseInt(prompt("Amico, scrivi il numero"));
   console.log(dato);
-  risultato = risultato + dato;
+  // risultato = risultato + dato;
+  risultato += dato
 }
 
 /*
