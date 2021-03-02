@@ -20,7 +20,7 @@ SE il numero ha un modulo % diverso da 0, significa che è dispari e vado ad AGG
 
 for (i = 0; i < 6; i++){
   var numero = parseInt(prompt("Scrivi numero scelto!"));
-  console.log(numero;
+  console.log(numero);
 
   if (numero % 2 == 1) {
     lista.push(numero);
