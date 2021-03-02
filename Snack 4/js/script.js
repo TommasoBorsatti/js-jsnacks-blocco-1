@@ -39,10 +39,10 @@ for (i = 0; i < lista.length; i++){
 */
 
 if (controllo == true) {
-  document.getElementById('risultato').innerHTML = ("Complimenti" + nome + ", sei un vero intenditore e per questo sei nel Team Inzaghi");
+  document.getElementById('risultato').innerHTML = ("Complimenti " + nome + ", sei un vero intenditore e per questo sei nel Team Inzaghi");
 
 }
 
 else {
-  document.getElementById('risultato').innerHTML = ("Mi dispiace" + nome + ", non sei abbastanza figo per entrare nel Team Inzaghi. Apri la console per vedere chi può permetterselo.");
+  document.getElementById('risultato').innerHTML = ("Mi dispiace " + nome + ", non sei abbastanza figo per entrare nel Team Inzaghi. Apri la console per vedere chi può permetterselo.");
 }
