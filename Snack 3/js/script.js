@@ -7,10 +7,14 @@ inseriti.*/
 alert("WOW! Questo programma riesce persino a sommare 10 numeri che scrivi uno di fila all'altro: prova un po'! ")
 
 /*
-1. Inizializzo un ciclo FOR con una variabile contatore i. La condizione di fine ciclo si innesta alla decima iterazione ( i < 10)
+1. Inizializzo un ciclo FOR con una variabile contatore i. La condizione di fine ciclo si innesta alla decima iterazione ( i < 10).
+Inizializzo una variabile risultato che parte a valore 0
+ogni volta che un numero viene inserito la variabile dato viene sommata a risultato; risultato += dato permette a risultato di non resettarsi
+ma di sommare ogni nuovo dato a sé stesso.
+Alla fine delle iterazioni risultato corrisponde al valore della somma.
 */
 
-risultato=0;
+risultato = 0;
 
 for (i = 0; i < 10; i++){
   var dato =  parseInt(prompt("Amico, scrivi il numero"));
@@ -19,15 +23,5 @@ for (i = 0; i < 10; i++){
   risultato += dato
 }
 
-/*
-2. Chiediamo di inserire la secondo parola con prompt e definiamo la seconda variabile parola.
-Andiamo a prendere la seconda lunghezza con il comando Length, e definiamola in quanto variabile.
-*/
-
-
-/*
-3. Confrontiamo la prima variabile con la seconda. SE la prima è maggiore la stampiamo.
-SE invece è minore stampiamo l'altra. Se i numeri sono uguali compare un messaggio.
-*/
-
+//2. il risultato finale è stampato in html
 document.getElementById('risultato').innerHTML = ("Il risultato dei numeri sommati è:" + risultato);
