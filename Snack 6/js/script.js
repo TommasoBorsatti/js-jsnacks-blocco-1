@@ -1,15 +1,14 @@
 
 
-// Stampa il cubo dei primi N numeri, dove N è un numero
-// indicato dall’utente.
+// Stampa le potenze di 2 fino a 1000.
 
-alert("Attenzione! Adesso ti indicherò di scrivere un numero!");
+alert("indica un numero : io stamperò tutti i cubi da 0 fino al numero indicato");
 
-n = parseInt(prompt("Scrivi qui il numero: io ti indicherò il cubo di tutti in numeri che vanno da 0 al numero indicato"));
-var numero;
+var n = parseInt(prompt("Scegli in numero"));
 
-for (i = 1; i <= n; i++){
-  numero = Math.pow(i, 3);
-  console.log(numero);
-  document.getElementById("lista").innerHTML += "<li>" + numero + "</li>"
+
+for (i = 0; i <= n; i++){
+  risultato = Math.pow(i, 3);
+  console.log(risultato);
+  document.getElementById("lista").innerHTML += "<li>" + risultato + "</li>";
 }
