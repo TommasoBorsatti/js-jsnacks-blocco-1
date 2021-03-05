@@ -20,6 +20,9 @@ var prodotto = 0;
 
 // determino array piu lungo
 
+maxArray = [];
+minArray = [];
+
 if (lista1.length > lista2.length) {
 
   var maxArray = lista1 ;
