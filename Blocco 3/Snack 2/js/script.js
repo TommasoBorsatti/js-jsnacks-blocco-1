@@ -52,7 +52,6 @@ for (var i = 0; i < squadre.length; i++) {
     nome: squadre[i].nome,
     falliSubiti: squadre[i].falliSubiti
   });
-
 }
 
 console.log(listaFinale);
